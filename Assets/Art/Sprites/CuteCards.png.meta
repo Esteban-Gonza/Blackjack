@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ace_Of_Clubs
+      name: Clubs_Ace
       rect:
         serializedVersion: 2
         x: 4
@@ -170,11 +170,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2_Of_Clubs
+      name: Clubs_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 436
+        x: 103
+        y: 435
         width: 92
         height: 136
       alignment: 0
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Of_Clubs
+      name: Clubs_3
       rect:
         serializedVersion: 2
         x: 204
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4_Of_Clubs
+      name: Clubs_4
       rect:
         serializedVersion: 2
         x: 304
@@ -233,10 +233,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5_Of_Clubs
+      name: Clubs_5
       rect:
         serializedVersion: 2
-        x: 404
+        x: 403
         y: 436
         width: 92
         height: 136
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Of_Clubs
+      name: Clubs_6
       rect:
         serializedVersion: 2
         x: 504
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7_Of_Clubs
+      name: Clubs_7
       rect:
         serializedVersion: 2
         x: 604
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_Of_Clubs
+      name: Clubs_8
       rect:
         serializedVersion: 2
         x: 704
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9_Of_Clubs
+      name: Clubs_9
       rect:
         serializedVersion: 2
         x: 804
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Of_Clubs
+      name: Clubs_10
       rect:
         serializedVersion: 2
         x: 904
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: J_Of_Clubs
+      name: Clubs_J
       rect:
         serializedVersion: 2
         x: 1004
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Q_Of_Clubs
+      name: Clubs_Q
       rect:
         serializedVersion: 2
         x: 1104
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: K_Of_Clubs
+      name: Clubs_K
       rect:
         serializedVersion: 2
         x: 1204
@@ -422,7 +422,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_Unknown
+      name: Unknown_Black
       rect:
         serializedVersion: 2
         x: 1304
@@ -464,7 +464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ace_Of_Diamonds
+      name: Diamonds_Ace
       rect:
         serializedVersion: 2
         x: 4
@@ -485,7 +485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2_Of_Diamonds
+      name: Diamonds_2
       rect:
         serializedVersion: 2
         x: 104
@@ -506,7 +506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Of_Diamonds
+      name: Diamonds_3
       rect:
         serializedVersion: 2
         x: 204
@@ -527,7 +527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4_Of_Diamonds
+      name: Diamonds_4
       rect:
         serializedVersion: 2
         x: 304
@@ -548,7 +548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5_Of_Diamonds
+      name: Diamonds_5
       rect:
         serializedVersion: 2
         x: 404
@@ -569,7 +569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Of_Diamonds
+      name: Diamonds_6
       rect:
         serializedVersion: 2
         x: 504
@@ -590,7 +590,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7_Of_Diamonds
+      name: Diamonds_7
       rect:
         serializedVersion: 2
         x: 604
@@ -611,7 +611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_Of_Diamonds
+      name: Diamonds_8
       rect:
         serializedVersion: 2
         x: 704
@@ -632,7 +632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9_Of_Diamonds
+      name: Diamonds_9
       rect:
         serializedVersion: 2
         x: 804
@@ -653,7 +653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Of_Diamonds
+      name: Diamonds_10
       rect:
         serializedVersion: 2
         x: 904
@@ -674,7 +674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: J_Of_Diamonds
+      name: Diamonds_J
       rect:
         serializedVersion: 2
         x: 1004
@@ -695,7 +695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Q_Of_Diamonds
+      name: Diamonds_Q
       rect:
         serializedVersion: 2
         x: 1104
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: K_Of_Diamonds
+      name: Diamonds_K
       rect:
         serializedVersion: 2
         x: 1204
@@ -737,7 +737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red_Unknown
+      name: Unknown_Red
       rect:
         serializedVersion: 2
         x: 1304
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ace_Of_Spades
+      name: Spades_Ace
       rect:
         serializedVersion: 2
         x: 4
@@ -800,7 +800,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2_Of_Spades
+      name: Spades_2
       rect:
         serializedVersion: 2
         x: 104
@@ -821,7 +821,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Of_Spades
+      name: Spades_3
       rect:
         serializedVersion: 2
         x: 204
@@ -842,7 +842,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4_Of_Spades
+      name: Spades_4
       rect:
         serializedVersion: 2
         x: 304
@@ -863,7 +863,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5_Of_Spades
+      name: Spades_5
       rect:
         serializedVersion: 2
         x: 404
@@ -884,7 +884,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Of_Spades
+      name: Spades_6
       rect:
         serializedVersion: 2
         x: 504
@@ -905,7 +905,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7_Of_Spades
+      name: Spades_7
       rect:
         serializedVersion: 2
         x: 604
@@ -926,7 +926,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_Of_Spades
+      name: Spades_8
       rect:
         serializedVersion: 2
         x: 704
@@ -947,7 +947,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9_Of_Spades
+      name: Spades_9
       rect:
         serializedVersion: 2
         x: 804
@@ -968,7 +968,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Of_Spades
+      name: Spades_10
       rect:
         serializedVersion: 2
         x: 904
@@ -989,7 +989,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: J_Of_Spades
+      name: Spades_J
       rect:
         serializedVersion: 2
         x: 1004
@@ -1010,7 +1010,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Q_Of_Spades
+      name: Spades_Q
       rect:
         serializedVersion: 2
         x: 1104
@@ -1031,7 +1031,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: K_Of_Spades
+      name: Spades_K
       rect:
         serializedVersion: 2
         x: 1204
@@ -1052,7 +1052,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_Joker
+      name: Joker_Black
       rect:
         serializedVersion: 2
         x: 1304
@@ -1073,7 +1073,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_Back
+      name: Back_Black
       rect:
         serializedVersion: 2
         x: 1404
@@ -1094,7 +1094,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ace_Of_Hearts
+      name: Hearts_Ace
       rect:
         serializedVersion: 2
         x: 4
@@ -1115,7 +1115,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2_Of_Hearts
+      name: Hearts_2
       rect:
         serializedVersion: 2
         x: 104
@@ -1136,7 +1136,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Of_Hearts
+      name: Hearts_3
       rect:
         serializedVersion: 2
         x: 204
@@ -1157,7 +1157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4_Of_Hearts
+      name: Hearts_4
       rect:
         serializedVersion: 2
         x: 304
@@ -1178,7 +1178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5_Of_Hearts
+      name: Hearts_5
       rect:
         serializedVersion: 2
         x: 404
@@ -1199,7 +1199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Of_Hearts
+      name: Hearts_6
       rect:
         serializedVersion: 2
         x: 504
@@ -1220,7 +1220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7_Of_Hearts
+      name: Hearts_7
       rect:
         serializedVersion: 2
         x: 604
@@ -1241,7 +1241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_Of_Hearts
+      name: Hearts_8
       rect:
         serializedVersion: 2
         x: 704
@@ -1262,7 +1262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9_Of_Hearts
+      name: Hearts_9
       rect:
         serializedVersion: 2
         x: 804
@@ -1283,7 +1283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Of_Hearts
+      name: Hearts_10
       rect:
         serializedVersion: 2
         x: 904
@@ -1304,7 +1304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: J_Of_Hearts
+      name: Hearts_J
       rect:
         serializedVersion: 2
         x: 1004
@@ -1325,7 +1325,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Q_Of_Hearts
+      name: Hearts_Q
       rect:
         serializedVersion: 2
         x: 1104
@@ -1346,7 +1346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: K_Of_Hearts
+      name: Hearts_K
       rect:
         serializedVersion: 2
         x: 1204
@@ -1367,7 +1367,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red_Joker
+      name: Joker_Red
       rect:
         serializedVersion: 2
         x: 1304
@@ -1388,7 +1388,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red_Back
+      name: Back_Red
       rect:
         serializedVersion: 2
         x: 1404
@@ -1419,66 +1419,66 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      10_Of_Clubs: 1902841452
-      10_Of_Diamonds: -1297925079
-      10_Of_Hearts: -99294461
-      10_Of_Spades: 715838948
-      2_Of_Clubs: 1723823298
-      2_Of_Diamonds: 1337593701
-      2_Of_Hearts: -833663975
-      2_Of_Spades: 609430487
-      3_Of_Clubs: -1026111503
-      3_Of_Diamonds: -224048729
-      3_Of_Hearts: -843628328
-      3_Of_Spades: -633110480
-      4_Of_Clubs: -1904470671
-      4_Of_Diamonds: -1251670555
-      4_Of_Hearts: -86192253
-      4_Of_Spades: 1973351318
-      5_Of_Clubs: 899364807
-      5_Of_Diamonds: 2145865562
-      5_Of_Hearts: -1541596380
-      5_Of_Spades: -1109029057
-      6_Of_Clubs: 1103480865
-      6_Of_Diamonds: -1978192244
-      6_Of_Hearts: -1852803406
-      6_Of_Spades: 429803634
-      7_Of_Clubs: 1354211235
-      7_Of_Diamonds: -398316827
-      7_Of_Hearts: -243936346
-      7_Of_Spades: 1566043599
-      8_Of_Clubs: 1525612828
-      8_Of_Diamonds: -1565901847
-      8_Of_Hearts: 1320979985
-      8_Of_Spades: 86865341
-      9_Of_Clubs: 643774052
-      9_Of_Diamonds: -2029112798
-      9_Of_Hearts: 1377675206
-      9_Of_Spades: -1603203757
-      Ace_Of_Clubs: -666569671
-      Ace_Of_Diamonds: 339444292
-      Ace_Of_Hearts: -1447285543
-      Ace_Of_Spades: 1923821422
-      Black_Back: -1685981988
-      Black_Joker: 1752838623
-      Black_Unknown: 1924687498
+      Back_Black: -1685981988
+      Back_Red: -1200839343
       Blank_Card: -1082917043
       Blank_Unknown: -579542813
-      J_Of_Clubs: -2086756627
-      J_Of_Diamonds: -1671507829
-      J_Of_Hearts: 2108635131
-      J_Of_Spades: -825539784
-      K_Of_Clubs: -891152145
-      K_Of_Diamonds: 819060317
-      K_Of_Hearts: -990643161
-      K_Of_Spades: -1697916552
-      Q_Of_Clubs: -970230261
-      Q_Of_Diamonds: 402310527
-      Q_Of_Hearts: 2130543367
-      Q_Of_Spades: -189413854
-      Red_Back: -1200839343
-      Red_Joker: -1809358223
-      Red_Unknown: -1838532439
+      Clubs_10: 1902841452
+      Clubs_2: 1723823298
+      Clubs_3: -1026111503
+      Clubs_4: -1904470671
+      Clubs_5: 899364807
+      Clubs_6: 1103480865
+      Clubs_7: 1354211235
+      Clubs_8: 1525612828
+      Clubs_9: 643774052
+      Clubs_Ace: -666569671
+      Clubs_J: -2086756627
+      Clubs_K: -891152145
+      Clubs_Q: -970230261
+      Diamonds_10: -1297925079
+      Diamonds_2: 1337593701
+      Diamonds_3: -224048729
+      Diamonds_4: -1251670555
+      Diamonds_5: 2145865562
+      Diamonds_6: -1978192244
+      Diamonds_7: -398316827
+      Diamonds_8: -1565901847
+      Diamonds_9: -2029112798
+      Diamonds_Ace: 339444292
+      Diamonds_J: -1671507829
+      Diamonds_K: 819060317
+      Diamonds_Q: 402310527
+      Hearts_10: -99294461
+      Hearts_2: -833663975
+      Hearts_3: -843628328
+      Hearts_4: -86192253
+      Hearts_5: -1541596380
+      Hearts_6: -1852803406
+      Hearts_7: -243936346
+      Hearts_8: 1320979985
+      Hearts_9: 1377675206
+      Hearts_Ace: -1447285543
+      Hearts_J: 2108635131
+      Hearts_K: -990643161
+      Hearts_Q: 2130543367
+      Joker_Black: 1752838623
+      Joker_Red: -1809358223
+      Spades_10: 715838948
+      Spades_2: 609430487
+      Spades_3: -633110480
+      Spades_4: 1973351318
+      Spades_5: -1109029057
+      Spades_6: 429803634
+      Spades_7: 1566043599
+      Spades_8: 86865341
+      Spades_9: -1603203757
+      Spades_Ace: 1923821422
+      Spades_J: -825539784
+      Spades_K: -1697916552
+      Spades_Q: -189413854
+      Unknown_Black: 1924687498
+      Unknown_Red: -1838532439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
