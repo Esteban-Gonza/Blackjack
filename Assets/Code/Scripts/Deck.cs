@@ -26,4 +26,19 @@ public class Deck : MonoBehaviour
         }
         currentIndex = 1;
     }
+
+    public void Shuddle()
+    {
+        for(int i = cardSprites.Length - 1; i > 0 ; --i)
+        {
+            int j = Mathf.FloorToInt(Random.Range(0f, 1f) * cardSprites.Length - 1) + 1;
+            Sprite face = cardSprites[i];
+            cardSprites[i]= cardSprites[j];
+            cardSprites[j] = face;
+
+            int value = cardValues[i];
+            cardValues[i] = cardValues[j];
+            cardValues[j] = value;
+        }
+    }
 }
