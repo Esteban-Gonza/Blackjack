@@ -9,6 +9,10 @@ public class Deck : MonoBehaviour
     int[] cardValues = new int[53];
     int currentIndex = 0;
 
+    private void Start()
+    {
+        GetCardValues();
+    }
     void GetCardValues()
     {
         int num = 0;
@@ -28,7 +32,7 @@ public class Deck : MonoBehaviour
         currentIndex = 1;
     }
 
-    public void Shuddle()
+    public void Shuffle()
     {
         for(int i = cardSprites.Length - 1; i > 0 ; --i)
         {
