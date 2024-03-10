@@ -18,16 +18,24 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI mainText;
     public TextMeshProUGUI standText;
 
+    [Header("Audio")]
+    public AudioClip dealSound;
+    public AudioClip hitSound;
+    public AudioClip betSound;
+
     [Header("References")]
     [SerializeField] GameObject hideCard;
     [SerializeField] Players playerScript;
     [SerializeField] Players dealerScript;
+    private AudioSource managerAudioSource;
 
     private int standClicks = 0;
     private int pot = 0;
 
     private void Start()
     {
+        managerAudioSource = GetComponent<AudioSource>();
+
         dealBtn.onClick.AddListener(() => DealClicked());
         hitBtn.onClick.AddListener(() => HitClicked());
         standBtn.onClick.AddListener(() => StandClicked());
@@ -36,6 +44,9 @@ public class GameManager : MonoBehaviour
 
     private void DealClicked()
     {
+        managerAudioSource.clip = dealSound;
+        managerAudioSource.Play();
+
         playerScript.ResetHand();
         dealerScript.ResetHand();
 
@@ -66,8 +77,10 @@ public class GameManager : MonoBehaviour
 
     private void HitClicked()
     {
+        managerAudioSource.clip = hitSound;
+        managerAudioSource.Play();
 
-        if(playerScript.cardIndex <= 10)
+        if (playerScript.cardIndex <= 10)
         {
             playerScript.GetCard();
             scoreText.text = "Hand: " + playerScript.handValue.ToString();
@@ -81,6 +94,19 @@ public class GameManager : MonoBehaviour
         if (standClicks > 1) RoundOver();
         HitDealer();
         standText.text = "Call";
+    }
+
+    void BetClicked()
+    {
+        managerAudioSource.clip = betSound;
+        managerAudioSource.Play();
+
+        TextMeshProUGUI newBet = betBtn.GetComponentInChildren(typeof(TextMeshProUGUI)) as TextMeshProUGUI;
+        int intBet = int.Parse(newBet.text.ToString().Remove(0, 1));
+        playerScript.AdjustMoney(-intBet);
+        cashText.text = "$" + playerScript.GetMoney().ToString();
+        pot += (intBet * 2);
+        betsText.text = "BETS: $" + pot.ToString();
     }
 
     private void HitDealer()
@@ -143,15 +169,5 @@ public class GameManager : MonoBehaviour
             cashText.text = "$" + playerScript.GetMoney().ToString();
             standClicks = 0;
         }
-    }
-
-    void BetClicked()
-    {
-        TextMeshProUGUI newBet = betBtn.GetComponentInChildren(typeof(TextMeshProUGUI)) as TextMeshProUGUI;
-        int intBet = int.Parse(newBet.text.ToString().Remove(0, 1));
-        playerScript.AdjustMoney(-intBet);
-        cashText.text = "$" + playerScript.GetMoney().ToString();
-        pot += (intBet * 2);
-        betsText.text = "BETS: $" + pot.ToString();
     }
 }
