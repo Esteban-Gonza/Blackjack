@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -40,7 +39,7 @@ public class Players : MonoBehaviour
         }
 
         // Check if ace value is = to 1 or 11
-        //AceCheck();
+        AceCheck();
         cardIndex++;
         return handValue;
     }
@@ -69,5 +68,17 @@ public class Players : MonoBehaviour
     public int GetMoney()
     {
         return money;
+    }
+
+    public void ResetHand()
+    {
+        for(int i = 0; i < hand.Length; i++)
+        {
+            hand[i].GetComponent<Card>().ResetCard();
+            hand[i].GetComponent<Renderer>().enabled = false;
+        }
+        cardIndex = 0;
+        handValue = 0;
+        aceList = new List<Card>();
     }
 }

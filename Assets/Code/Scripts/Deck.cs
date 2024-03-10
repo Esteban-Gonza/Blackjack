@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class Deck : MonoBehaviour
@@ -13,6 +10,7 @@ public class Deck : MonoBehaviour
     {
         GetCardValues();
     }
+
     void GetCardValues()
     {
         int num = 0;
@@ -29,14 +27,13 @@ public class Deck : MonoBehaviour
             }
             cardValues[i] = num++;
         }
-        currentIndex = 1;
     }
 
     public void Shuffle()
     {
         for(int i = cardSprites.Length - 1; i > 0 ; --i)
         {
-            int j = Mathf.FloorToInt(Random.Range(0f, 1f) * cardSprites.Length - 1) + 1;
+            int j = Mathf.FloorToInt(Random.Range(0.0f, 1.0f) * cardSprites.Length - 1) + 1;
             Sprite face = cardSprites[i];
             cardSprites[i]= cardSprites[j];
             cardSprites[j] = face;
@@ -45,6 +42,7 @@ public class Deck : MonoBehaviour
             cardValues[i] = cardValues[j];
             cardValues[j] = value;
         }
+        currentIndex = 1;
     }
 
     public int DealCard(Card card)
