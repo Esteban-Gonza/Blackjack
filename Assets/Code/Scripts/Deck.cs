@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class Deck : MonoBehaviour
@@ -40,5 +41,18 @@ public class Deck : MonoBehaviour
             cardValues[i] = cardValues[j];
             cardValues[j] = value;
         }
+    }
+
+    public int DealCard(Card card)
+    {
+        card.SetSprite(cardSprites[currentIndex]);
+        card.SetValue(cardValues[currentIndex]);
+        currentIndex++;
+        return card.GetValueOfCard();
+    }
+
+    public Sprite GetCardBack()
+    {
+        return cardSprites[0];
     }
 }
